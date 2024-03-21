@@ -1,0 +1,12 @@
+.first_image {
+    width: 200px; /* 设置宽度为200像素 */
+    height: 150px; /* 设置高度为150像素 */
+    position: relative; /* 设置相对定位 */
+}
+.second_image {
+    width: 200px; /* 设置宽度为200像素 */
+    height: 150px; /* 设置高度为150像素 */
+    position: absolute; /* 设置相对定位 */
+    top: 20px; /* 相对于 .container 顶部偏移20像素 */
+    left: 50px
+}

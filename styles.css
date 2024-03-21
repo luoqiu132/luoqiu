@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    min-height: 100%; /* 确保内容区域至少和视口高度一样高 */
+}
+
+body {
+    background-image: url(image/风车动态背景.gif);
+    /* 如果你希望图片平铺整个页面，可以使用以下属性 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*以下是关于鼠标指针图像的定义
+ */
+body {
+    cursor: url(image/猫爪指针（悬浮）.png), auto;
+}
+
+/* 定义鼠标点击时的样式 */
+body:active {
+    cursor: url(image/猫爪指正（选择）.png), auto;
+}
+/* 悬停状态下的链接 */
+:hover {
+    cursor: url('image/猫爪指针（悬浮）.png'), auto;
+}
+
+/* 点击状态下的链接 */
+:active {
+    cursor: url('image/猫爪指正（选择）.png'), auto;
+}
