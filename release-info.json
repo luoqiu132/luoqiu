@@ -1,11 +1,17 @@
 {
-  "version": "1.1.1",
-  "edition": "original scripts / in-place Excel save",
+  "version": "1.2.0",
+  "edition": "updated eight scripts / in-place Excel save",
+  "release_date": "2026-10-30",
+  "platform": "Windows 10/11 x64",
   "requires_excel": true,
   "requires_python_installation": false,
+  "instrument_count": 8,
   "save_mode": "modify selected summary template in place",
   "export_new_workbook": false,
-  "exe_sha256": "00e298f8f405d48f46c26cd2b8d1939efd43c2c767937cdf4af67afe16fbe45a",
-  "exe_bytes": 38297197,
-  "excel_execution_in_build_environment": "not tested; protocol substitute verified Save and no SaveAs"
+  "editable_algorithms": "algorithms/*.py; reloaded on every run",
+  "exe_sha256": "3d5055649579475199752707960714e7c94f9825b0a09922b19dead5b3350852",
+  "exe_bytes": 38298579,
+  "excel_execution_in_build_environment": "not tested; all eight scripts tested against COM protocol substitutes",
+  "packaged_self_test": "passed with build Python temporarily hidden",
+  "packaged_ui_self_test": "eight instrument navigation, defaults, formula controls, calendar, rendering passed"
 }
